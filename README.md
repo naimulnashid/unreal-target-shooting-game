@@ -4,6 +4,8 @@ A first-person game made in Unreal Engine 5.3 with Blueprints: shoot every targe
 
 This repository is a project showcase, not a maintained library.
 
+![Visual abstract: WASD, Space and the mouse feed three Blueprints in a chain: BP_Rifle spawns BP_Bullet, which spawns a Chaos field on hit, and BP_Target shatters and adds a point. The game mode GM_TargetGame counts the targets, runs the timer and ends the game; the output is the score and time display and an end screen with a Restart button](assets/visual-abstract.png)
+
 ## Demo
 
 <a href="https://youtu.be/4WQEH5403so"><img src="https://img.youtube.com/vi/4WQEH5403so/maxresdefault.jpg" width="100%" alt="Thumbnail of the first-person target shooting game demo video in Unreal Engine"></a>
